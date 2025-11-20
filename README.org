@@ -7,9 +7,9 @@ function, DOM manipulation, Array methods, functional programming, Objects and J
 ** Subjects
 - Variables
 - Functions
-- DOM Manipulation
+- +DOM Manipulation+
 - Array Methods
-- Object,JSON,Classes
+- Object,Classes
 ** The Hard Parts
 I found some parts of Javascript to be confusing at first, coming from C++ I am used to having full control of
 everything and Javascript doesn't have that level of control, it does some unexpected stuff but It is a great
