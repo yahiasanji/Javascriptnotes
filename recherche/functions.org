@@ -1,0 +1,54 @@
+#+title: Functions
+
+In this section, we will see how Functions are defined and used in Javasript. defining an arrow function is as follows:
+#+begin_src javascript
+  const sum = (p1, p2) => {
+    console.log(p1)
+    console.log(p2)
+    return p1 + p2
+  }
+#+end_src
+  and the function is called as can be expected:
+#+begin_src javascript
+  const result = sum(1, 5)
+  console.log(result)
+  #+end_src
+  If there is just a single parameter, we can exclude the parentheses from the definition:
+#+begin_src javascript
+  const square = p => {
+    console.log(p)
+    return p * p
+  }
+#+end_src
+If the function only contains a single expression then the braces are not needed. In this case, the function only returns the result of its only expression. Now, if we remove console printing, we can further shorten the function definition:
+#+begin_src javascript
+const square = p => p * pcopy
+#+end_src
+
+This form is particularly handy when manipulating arrays - e.g. when using the map method:
+#+begin_src javascript
+const t = [1, 2, 3]
+const tSquared = t.map(p => p * p)
+// tSquared is now [1, 4, 9]
+#+end_src
+The arrow function feature was added to JavaScript in 2015, with version ES6. Before this, the only way to define functions was by using the keyword function.
+
+There are two ways to reference the function; one is giving a name in a function declaration.
+#+begin_src javascript
+function product(a, b) {
+  return a * b
+}
+
+const result = product(2, 6)
+// result is now 12
+#+end_src
+
+The other way to define the function is by using a function expression. In this case, there is no need to give the function a name and the definition may reside among the rest of the code:
+#+begin_src javascript
+const average = function(a, b) {
+  return (a + b) / 2
+}
+
+const result = average(2, 5)
+// result is now 3.5
+#+end_src
