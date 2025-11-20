@@ -2,7 +2,7 @@
 #+author: Yahia ABSI
 
 ** Overview
-In these notes, I share What I learned about Javascript in this short period of time. We will discuss variables,
+In these notes, I share what I learned about Javascript in this short period of time. We will discuss variables,
 function, DOM manipulation, Array methods, functional programming, Objects and JSON and Classes.
 ** Subjects
 - Variables
