@@ -1,0 +1,9 @@
+* Resources
+** Books and Online Guides
+- [[https://developer.mozilla.org/en-US/docs/Web/JavaScript][Mozzila's Javascript Guide]]
+- [[https://github.com/getify/You-Dont-Know-JS][You Don't Know JS]]
+- [[javascript.info]]
+- [[https://eloquentjavascript.net/][Eloquent Javascript]]
+** Video Series
+- [[https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP][Namaste Javascript]]
+  
